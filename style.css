@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 38px;
+    margin-bottom: 16px;
+}
+
+button {
+    margin-bottom: 24px;
+    width: 200px;
+    height: 34px;
+    font-size: 16px;
+}
+
+
+
+.message {
+    font-size: 18px;
+    display: none;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
